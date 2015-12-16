@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (3.1.5)
+  - Charts (2.1.6)
+  - Fabric (1.6.4)
+  - SwiftyJSON (2.3.2)
+  - TwitterCore (1.15.1):
+    - Fabric
+  - TwitterKit (1.15.1):
+    - TwitterCore (= 1.15.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Charts
+  - Fabric
+  - SwiftyJSON
+  - TwitterCore
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Charts: 5e1e5ac23898e5b09d226a2fc3e9d86bc281937e
+  Fabric: ed41fd62173c6bdea24ab02c9d7707161eabb750
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TwitterCore: 12983a7464e34afbbf18881347898a9db526ac71
+  TwitterKit: b5821570887ec2d77650fa232eaec175665dc443
+
+COCOAPODS: 0.39.0
