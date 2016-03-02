@@ -5,9 +5,6 @@ target 'SeeTheCity' do
     pod 'Alamofire', '~> 3.0'
     pod 'Charts'
     pod 'SwiftyJSON'
-    pod 'Fabric'
-    pod 'TwitterKit'
-    pod 'TwitterCore'
 end
 
 target 'SeeTheCityTests' do
