@@ -14,6 +14,9 @@
 		DB0195031C5FA8A500CB5F67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0195021C5FA8A500CB5F67 /* LoginViewController.swift */; };
 		DB0195051C610E1200CB5F67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0195041C610E1200CB5F67 /* AVFoundation.framework */; };
 		DB0195071C610E1D00CB5F67 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0195061C610E1D00CB5F67 /* CoreMedia.framework */; };
+		DB08F8231C877301004D4823 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08F8201C877301004D4823 /* TwitterCore.framework */; };
+		DB08F8241C877301004D4823 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08F8211C877301004D4823 /* TwitterKit.framework */; };
+		DB08F8251C877301004D4823 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08F8221C877301004D4823 /* Fabric.framework */; };
 		DB175E121C86082C00F6DE76 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB175E111C86082C00F6DE76 /* Constants.swift */; };
 		DB5652C11C533CB7006E7ACE /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5652C01C533CB7006E7ACE /* Attraction.swift */; };
 		DB5652C51C5439DC006E7ACE /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5652C41C5439DC006E7ACE /* AttractionTableViewCell.swift */; };
@@ -52,6 +55,9 @@
 		DB0195021C5FA8A500CB5F67 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DB0195041C610E1200CB5F67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DB0195061C610E1D00CB5F67 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DB08F8201C877301004D4823 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		DB08F8211C877301004D4823 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		DB08F8221C877301004D4823 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		DB175E111C86082C00F6DE76 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DB5652C01C533CB7006E7ACE /* Attraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		DB5652C41C5439DC006E7ACE /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
@@ -78,10 +84,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB08F8251C877301004D4823 /* Fabric.framework in Frameworks */,
+				DB08F8231C877301004D4823 /* TwitterCore.framework in Frameworks */,
 				DB0195071C610E1D00CB5F67 /* CoreMedia.framework in Frameworks */,
 				DB0195051C610E1200CB5F67 /* AVFoundation.framework in Frameworks */,
 				DB5652CA1C545F23006E7ACE /* MapKit.framework in Frameworks */,
 				802D8872C4C382EE6F3D3C13 /* Pods_SeeTheCity.framework in Frameworks */,
+				DB08F8241C877301004D4823 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +116,9 @@
 		CA7839EF823EE932AEAC25D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB08F8201C877301004D4823 /* TwitterCore.framework */,
+				DB08F8211C877301004D4823 /* TwitterKit.framework */,
+				DB08F8221C877301004D4823 /* Fabric.framework */,
 				DB0195061C610E1D00CB5F67 /* CoreMedia.framework */,
 				DB0195041C610E1200CB5F67 /* AVFoundation.framework */,
 				DB5652C91C545F23006E7ACE /* MapKit.framework */,
@@ -486,6 +498,10 @@
 			baseConfigurationReference = 09E7C9912592EBDCFBF528A3 /* Pods-SeeTheCity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeeTheCity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -499,6 +515,10 @@
 			baseConfigurationReference = 70E2C0DFEE0B4FABA3FAC346 /* Pods-SeeTheCity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeeTheCity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
