@@ -87,7 +87,7 @@ class CityDetailsViewController: UIViewController, UITableViewDataSource, UITabl
         }
         
         let params = ["screen_name": screenNames, "include_entities": "false"]
-        let request = Twitter.sharedInstance().APIClient.URLRequestWithMethod(
+        let request = client.URLRequestWithMethod(
             "GET",
             URL: statusesShowEndpoint,
             parameters: params,

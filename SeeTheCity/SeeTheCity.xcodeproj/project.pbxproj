@@ -18,6 +18,7 @@
 		DB08F8241C877301004D4823 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08F8211C877301004D4823 /* TwitterKit.framework */; };
 		DB08F8251C877301004D4823 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08F8221C877301004D4823 /* Fabric.framework */; };
 		DB175E121C86082C00F6DE76 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB175E111C86082C00F6DE76 /* Constants.swift */; };
+		DB5215181CA9A636004D23D5 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB5215171CA9A636004D23D5 /* TwitterKitResources.bundle */; };
 		DB5652C11C533CB7006E7ACE /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5652C01C533CB7006E7ACE /* Attraction.swift */; };
 		DB5652C51C5439DC006E7ACE /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5652C41C5439DC006E7ACE /* AttractionTableViewCell.swift */; };
 		DB5652C81C545EF5006E7ACE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB5652C71C545EF5006E7ACE /* Settings.bundle */; };
@@ -59,6 +60,7 @@
 		DB08F8211C877301004D4823 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		DB08F8221C877301004D4823 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		DB175E111C86082C00F6DE76 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB5215171CA9A636004D23D5 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
 		DB5652C01C533CB7006E7ACE /* Attraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		DB5652C41C5439DC006E7ACE /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
 		DB5652C71C545EF5006E7ACE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		CA7839EF823EE932AEAC25D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB5215171CA9A636004D23D5 /* TwitterKitResources.bundle */,
 				DB08F8201C877301004D4823 /* TwitterCore.framework */,
 				DB08F8211C877301004D4823 /* TwitterKit.framework */,
 				DB08F8221C877301004D4823 /* Fabric.framework */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5652C81C545EF5006E7ACE /* Settings.bundle in Resources */,
+				DB5215181CA9A636004D23D5 /* TwitterKitResources.bundle in Resources */,
 				DBF0236C1C47FA4E00F3C902 /* LaunchScreen.storyboard in Resources */,
 				DB0194FD1C5E6A5000CB5F67 /* Media.xcassets in Resources */,
 				DBF023671C47FA4E00F3C902 /* Main.storyboard in Resources */,
